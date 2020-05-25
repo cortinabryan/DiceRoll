@@ -8,8 +8,10 @@ function getRandomNumber() {
 }
 
 function showDice() {
-  diceTriggerEl.addEventListener("click", function() {
-    diceImageEl.src = "images"
+  diceTriggerEl.addEventListener("click", function () {
+    let myRandomNumber = getRandomNumber();
+    diceImageEl.src = "images/dice" + myRandomNumber + ".png";
   })
 }
 
+showDice();
