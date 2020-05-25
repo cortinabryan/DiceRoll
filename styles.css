@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-body {
+body{
   background: #1e1e1e;
   color: white;
   text-align: center;
@@ -25,5 +25,5 @@ body {
 }
 
 .dice__trigger:hover {
-  opacity: 0.8;
+  opacity: .8;
 }
